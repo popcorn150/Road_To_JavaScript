@@ -1,0 +1,14 @@
+- Tasks
+
+(if statement)
+> Using the let keyword, declare a variable named sale. Assign the value true to it.
+
+> Now create an if statement. Provide the if statement a condition of sale.
+Inside the code block of the if statement, console.log() the string 'Time to buy!'
+
+(if_else statement)
+> Add an else statement to the existing if statement. 
+Inside the code block of the else statement, console.log() the string 'Time to wait for a sale.'
+
+(Comparison Operators)
+> Using let, create a variable named hungerLevel and set it equal to 7.
