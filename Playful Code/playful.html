@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <img src="https://freepngimg.com/thumb/pokemon/20252-5-pokemon-transparent-background.png" id="img" />
+
+  <button id="btn-surprise">Surprise Me</button>
+
+  <script type="text/javascript">
+
+// this code for generating random function was gotten from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#getting_a_random_integer_between_two_values
+    function getRandomInt(min, max) {
+      const minCeiled = Math.ceil(min);
+      const maxFloored = Math.floor(max);
+      return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
+    }
+
+    const images = [
+      "https://freepngimg.com/thumb/pokemon/37543-2-pokemon-picture.png",
+      "https://freepngimg.com/thumb/pokemon/20046-3-pokemon-ash-file.png",
+      "https://freepngimg.com/thumb/pokemon/20254-4-pokemon-photos.png",
+      "https://freepngimg.com/thumb/pokemon/37574-7-legendary-pokemon.png"
+    ]
+
+    const btnSurprise = document.getElementById("btn-surprise");
+    btnSurprise.addEventListener("click", (e) => {
+      const imgEl = document.getElementById("img")
+      const randomIndex = getRandomInt(0, images.length)
+
+      imgEl.src = images[randomIndex]
+    });
+  </script>
+</body>
+
+</html>
