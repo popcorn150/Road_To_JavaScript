@@ -12,3 +12,35 @@ Inside the code block of the else statement, console.log() the string 'Time to w
 
 (Comparison Operators)
 > Using let, create a variable named hungerLevel and set it equal to 7.
+
+(Logical Operators)
+> In logical_operators.js there are two variables mood and tirednessLevel.
+
+> Let’s create an if...else statement that checks if mood is 'sleepy' and tirednessLevel is greater than 8.
+
+> If both conditions evaluate to true, then console.log() the string 'time to sleep'. 
+Otherwise, we should console.log() 'not bed time yet'.
+
+> After you press “Run”, play around with the || operator and the ! operator! 
+What happens if you negate the value of the entire statement with ! and switch to || instead of &&?
+
+(Truthy & Falsy Values)
+> In truthy_falsy.js, Change the value of wordCount so that it is truthy. This value should still be a number.
+After you make this change and run your code, 'Great! You've started your work!' should log to the console.
+
+> Change the value of favoritePhrase so that it is still a string but falsy.
+After you make this change and run your code, 'This string is definitely empty.' should log to the console.
+
+(Truthy and Falsy Assignment)
+> Let’s use short-circuit evaluation to assign a value to writingUtensil. 
+Do not edit tool yet, we’ll return to tool in the next step.
+Assign to writingUtensil the value of tool and if tool is falsy, assign a default value of 'pen'.
+
+(Ternary Operator)
+> Refactor, or edit, the first if...else block to use a ternary operator.
+
+(Else If Statements)
+> Let’s create a program that keeps track of the way the environment changes with the seasons. 
+Write a conditional statement to make this happen!
+
+> Add another else if statement that checks if season is equal to 'fall'.
