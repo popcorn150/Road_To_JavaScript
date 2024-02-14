@@ -58,3 +58,25 @@ that prints the string 'It\'s fall! Leaves are falling!'.
 > Add a final else if statement that checks if season is equal to 'summer'.
 Inside the code block of the else if statement you just created, add a console.log() 
 that prints the string 'It\'s sunny and warm because it\'s summer!'.
+
+(Switch Statements)
+> Let’s write a switch statement to decide what medal to award an athlete.
+'athleteFinalPosition' is already defined at the top of switch_keywords.js. 
+So start by writing a switch statement with 'athleteFinalPosition' as its expression.
+
+> Inside the switch statement, add three cases:
+The first case checks for the value 'first place'
+If the expression’s value matches the value of the case then console.log() 
+the string 'You get the gold medal!'
+
+The second case checks for the value 'second place'
+If the expression’s value matches the value of the case then console.log() 
+the string 'You get the silver medal!'
+
+The third case checks for the value 'third place'
+If the expression’s value matches the value of the case then console.log() 
+the string 'You get the bronze medal!'
+
+Remember to add a break after each console.log().
+
+> 
