@@ -1,0 +1,120 @@
+body{
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    height: 900px;
+    background-color: #f0f0f0;
+    border: 3px solid rgb(99, 15, 183);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+
+.container p {
+    position: relative;
+    text-align: left;
+    font-size: 55px;
+    color: rgb(99, 15, 183);
+    margin: auto;
+    padding-left: 5px;
+    letter-spacing: 10px;
+}
+
+.header {
+    width: 1228px;
+    height: 50px;
+    background-color: orange;
+    border: 2px solid rgb(99, 15, 183);
+    position: absolute;
+    top: 15%;
+    left: 21.5%;
+}
+
+.header p {
+    text-align: left;
+    font-size: 40px;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 7%;
+    letter-spacing: 3px;
+}
+
+#title {
+    font-family: sans-serif;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    top: 25%;
+    letter-spacing: 2px;
+    color: rgb(109, 30, 219);
+}
+
+.image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 108vh;
+}
+
+.image_container img{
+    max-width: 400px;
+    max-height: 400px;
+    z-index: 3;
+}
+
+.paragraph_text {
+    font-family: "Public Sans", sans-serif;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    font-size: 23px;
+    top: 32%;
+    letter-spacing: 2px;
+}
+
+.explanation_paragraph_container{
+    font-family: "Public Sans", sans-serif;
+    width: 470px;
+    height: auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    top: 70%;
+    left: 40%;
+}
+
+.explanation_paragraph {
+    z-index: 3;
+}
+
+.btn-container{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    width: 250px;
+    height: 70px;
+    background-color: rgb(73, 103, 232);
+    color: #f0f0f0;
+    font-size: 1.2em;
+    font-family: "Public sans", sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+    z-index: 3;
+}
