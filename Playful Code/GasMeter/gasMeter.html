@@ -21,10 +21,10 @@
     </div>
     <div id="title">Gas Meter ⛽</div>
     <div class="paragraph_text">
-        <p>Click the button below to check your gas rate !</p>
+        <p id="gas_readings">Click the button below to check your gas rate !</p>
     </div>
     <div class="image_container">
-        <img src="pictures/normal_gas.png" alt="cooking gas">
+        <img id="gas_images" src="pictures/normal_gas.png" alt="cooking gas">
     </div>
     <div class="explanation_paragraph_container">
         <p id="gas_rating_explanation" class="explanation_paragraph"></p>
@@ -32,6 +32,7 @@
     <div class="btn-container">
         <button onclick="check_gas_rating()" id="btn">CHECK HERE !</button>
     </div>
+    <script src="gasMeter.js"></script>
 </body>
 
 </html>

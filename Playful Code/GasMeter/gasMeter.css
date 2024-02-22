@@ -1,4 +1,4 @@
-body{
+body {
     overflow: hidden;
 }
 
@@ -56,14 +56,14 @@ body{
     color: rgb(109, 30, 219);
 }
 
-.image_container{
+.image_container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 108vh;
 }
 
-.image_container img{
+.image_container img {
     max-width: 400px;
     max-height: 400px;
     z-index: 3;
@@ -80,7 +80,7 @@ body{
     letter-spacing: 2px;
 }
 
-.explanation_paragraph_container{
+.explanation_paragraph_container {
     font-family: "Public Sans", sans-serif;
     width: 470px;
     height: auto;
@@ -97,7 +97,7 @@ body{
     z-index: 3;
 }
 
-.btn-container{
+.btn-container {
     width: 100%;
     position: absolute;
     top: 80%;
@@ -106,7 +106,7 @@ body{
     align-items: center;
 }
 
-#btn{
+#btn {
     width: 250px;
     height: 70px;
     background-color: rgb(73, 103, 232);
