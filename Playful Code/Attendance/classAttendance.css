@@ -34,8 +34,15 @@ input {
     font-size: 2rem;
     outline: 0;
     box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
     padding: 12px 20px;
     width: 40%;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
 }
 
 input:focus{
@@ -61,4 +68,37 @@ input:focus{
 #clearList:hover{
     background-color: #45a049;
     box-shadow: 0 0 5px #37adcd;
+}
+
+.attendanceContainer {
+    width: 500px;
+    margin: auto;
+}
+
+.attendance {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    padding: 16px;
+    color: #454545;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+
+.attendance:hover{
+    box-shadow: 0 0 20px #e22865;
+    border: 1px solid #e22865;
+}
+
+.attendance i{
+    cursor: pointer;
+    margin: 0 5px;
 }
