@@ -8,6 +8,8 @@ body {
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-image: linear-gradient(to right, #e22865, #37adcd);
+    color: white;
 }
 
 .box_container {
@@ -27,14 +29,18 @@ body {
     margin-top: 1em;
 }
 
-input[type='text'] {
+input {
     font-family: inherit;
-    outline: 0;
     font-size: 2rem;
+    outline: 0;
     box-sizing: border-box;
-    border-radius: 4px;
     padding: 12px 20px;
     width: 40%;
+}
+
+input:focus{
+    box-shadow: 0 0 5px #e22865;
+    border: 1px solid #e22865;
 }
 
 #clearList {
@@ -54,10 +60,5 @@ input[type='text'] {
 
 #clearList:hover{
     background-color: #45a049;
-}
-
-#studentList h2{
-    margin-left: 20%;
-    margin-right: 10px;margin-top: 15px;
-    font-size: 2rem;
+    box-shadow: 0 0 5px #37adcd;
 }
