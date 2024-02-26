@@ -83,6 +83,7 @@ input:focus{
     border-radius: 2px;
     padding: 16px;
     color: #454545;
+    background-color: white;
     margin-top: 10px;
     font-size: 1rem;
     text-transform: uppercase;
