@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <title>Attendance</title>
     <link rel="stylesheet" href="classAttendance.css">
 </head>
+
 <body>
     <div class="box_container">
-        <div class="text_properties_container">
-            <input type="text" placeholder="Enter Student Name Here" class="text_input">
-            <input type="button" value="Submit" onclick="submitInput()" class="submitBtn">
+        <div class="attendanceList">
+            <h1 style="text-align: center;">Attendance Tracker</h1>
+            <br>
+            <div style="text-align: center;">
+                <input type="text" placeholder="Enter Student Name Here" id="textInput">
+                <button id="clearList">Clear</button>
+            </div>
+            <br>
+            <div id="studentList"></div>
         </div>
     </div>
     <script src="classAttendance.js"></script>
 </body>
+
 </html>
