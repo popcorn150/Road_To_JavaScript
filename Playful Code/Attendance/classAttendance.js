@@ -1,12 +1,11 @@
-const container = document.getElementsByClassName('attendanceContainer')[0]
+const attendanceList = document.getElementsByClassName('attendance')[0]
 const userInput = document.getElementById('textInput')
 const clearList = document.getElementById('clearList')
 
 
-userInput.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') {
+userInput.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter')
         addToAttendance()
-    }
 })
 
 function addToAttendance() {
@@ -32,14 +31,14 @@ function addToAttendance() {
         notCheckIcon.style.color = 'red'
     })
 
-    divChild.appendChild(notCheckIcon)
-
     clearList.addEventListener('click', function () {
         divParent.remove()
     })
 
+    divChild.appendChild(notCheckIcon)
+
     divParent.appendChild(divChild)
 
-    container.appendChild(divParent)
+    attendanceList.appendChild(divParent)
     userInput.value = ''
 }
