@@ -26,10 +26,14 @@ function addToAttendance() {
     divChild.appendChild(checkIcon)
 
     notCheckIcon.className = 'fa fa-window-close'
-    notCheckIcon.style.color = 'lightgray'
-    notCheckIcon.addEventListener('click', function () {
-        notCheckIcon.style.color = 'red'
-    })
+
+    if (notCheckIcon.style.color = 'lightgray'){
+        notCheckIcon.addEventListener('click', function(){
+            notCheckIcon.style.color = 'red'
+        })
+    } else {
+        notCheckIcon.style.color = 'lightgray'
+    }
 
     clearList.addEventListener('click', function () {
         divParent.remove()
