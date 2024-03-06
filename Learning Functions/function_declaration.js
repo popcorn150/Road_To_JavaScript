@@ -37,7 +37,7 @@ const totalCost = costOfMonitors(5, 4)
 console.log(totalCost)
 
 // Function expressions
-const plantNeedsWater = function(day){
+const plantNeedsWater = (day) => { // changed the previous function to use an arrow function
     if (day === 'Wednesday'){
         return true
     } else {
