@@ -15,3 +15,11 @@ function callMyNightSky(){
     return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
 }
 console.log(callMyNightSky())
+
+// Block scope
+function logVisibleLightWaves(){
+    const lightWaves = 'Moonlight'
+    console.log(lightWaves)
+}
+logVisibleLightWaves()
+console.log(lightWaves)
