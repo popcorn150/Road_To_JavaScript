@@ -23,4 +23,21 @@ console.log(condiments)
 utensils[3] = 'Spoon'
 console.log(utensils)
 
-// The .length property
+// The .push() Method
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+chores.push('sweep', 'clean')
+console.log(chores)
+
+// the .pop() Method
+const chores2 = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+chores2.pop()
+
+// More Array Methods
+const groceryList2 = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList2.shift()
+
+groceryList2.unshift('popcorn')
+// console.log(groceryList2.slice(1, 4))
+
+const pastaIndex = groceryList2.indexOf('pasta')
+console.log(pastaIndex)
