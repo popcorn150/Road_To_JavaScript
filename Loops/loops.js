@@ -40,3 +40,23 @@ while (currentCard != 'spade') {
     currentCard = cards[Math.floor(Math.random() * 4)];
     console.log(currentCard)
 }
+
+/* Do While Loop */
+const cupsOfSugarNeeded = 2
+let cupsAdded = 0
+
+do {
+    cupsAdded++
+} while (cupsAdded < cupsOfSugarNeeded);
+console.log(cupsAdded)
+
+/* The break Keyword */
+const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+for (let i = 0; i < rapperArray.length; i++) {
+    if(rapperArray[i] === 'Notorious B.I.G.'){
+        console.log(rapperArray[i])
+        break
+    }
+    console.log(rapperArray[i])
+}
+console.log('And if you don\'t know, now you know.');
