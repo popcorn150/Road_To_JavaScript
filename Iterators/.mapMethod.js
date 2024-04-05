@@ -16,3 +16,5 @@ const smallNumbers = bigNumbers.map(bigNumber => {
 })
 
 console.log(smallNumbers)
+
+/**.map() executes the same code on every element in an array and returns a new array with the updated elements. */

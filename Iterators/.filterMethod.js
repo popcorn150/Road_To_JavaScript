@@ -14,3 +14,5 @@ const longFavoriteWords = favoriteWords.filter(favoriteWord => {
     return favoriteWord.length > 7
 })
 console.log(longFavoriteWords)
+
+/**.filter() checks every element in an array to see if it meets certain criteria and returns a new array with the elements that return truthy for the criteria. */
