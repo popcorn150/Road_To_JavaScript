@@ -32,5 +32,6 @@ const robot2 = {
             console.log('Pass in a number that is greater than or equal to 0')
         }
     }
-
 };
+robot2.numOfSensors = 100
+console.log(robot2.numOfSensors)
