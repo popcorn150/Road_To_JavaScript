@@ -1,0 +1,14 @@
+<<- Variables and Data Types ->>
+|--> Write a function that takes two parameters, 
+name (a string) and age (a number), and returns a sentence 
+that says "My name is [name] and I am [age] years old." <--|
+
+|--> Write a function called isEven that takes a number 
+as input and returns true if the number is even, and false otherwise. <--|
+
+|--> Create an array called fruits containing the names of three different fruits. 
+Write a function called printFruits that takes the 
+fruits array as input and logs each fruit name to the console. <--|
+
+|--> Write a function called reverseString that takes a string as input 
+and returns a new string with the characters reversed. <--|
