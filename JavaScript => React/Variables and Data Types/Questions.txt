@@ -12,3 +12,7 @@ fruits array as input and logs each fruit name to the console. <--|
 
 |--> Write a function called reverseString that takes a string as input 
 and returns a new string with the characters reversed. <--|
+
+|--> Declare a variable user and assign it an object with properties 
+name, age, and email. Write a function called getUserInfo that takes the user object as 
+input and returns a string containing the user's information in the format "Name: [name], Age: [age], Email: [email]". <--|
