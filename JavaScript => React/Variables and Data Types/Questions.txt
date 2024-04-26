@@ -16,3 +16,19 @@ and returns a new string with the characters reversed. <--|
 |--> Declare a variable user and assign it an object with properties 
 name, age, and email. Write a function called getUserInfo that takes the user object as 
 input and returns a string containing the user's information in the format "Name: [name], Age: [age], Email: [email]". <--|
+
+|--> Create a function called getLargestNumber that takes an 
+array of numbers as input and returns the largest number in the array. <--|
+
+|--> Write a function called capitalizeWords that takes 
+an array of strings as input and returns a new array with each string capitalized. <--|
+
+|--> Declare a variable temperature and assign it a number 
+representing the current temperature in Celsius. Write a function called convertToFarhenheit 
+that takes the temperature as input and returns the temperature converted to Fahrenheit (use the formula: F = (C * 9/5) + 32). <--|
+
+|--> Create an array called grades containing a list of numerical grades (e.g., [85, 92, 78, 95, 88]). 
+Write a function called calculateAverageGrade that takes the grades array as input and returns the average grade. <--|
+
+|--> Write a function called countVowels that takes a string as 
+input and returns the number of vowels (a, e, i, o, u) in the string. <--|

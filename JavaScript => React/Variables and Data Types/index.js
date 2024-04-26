@@ -40,11 +40,6 @@ function reverseString(str) {
 reverseString('Hello')
 
 /**getUserInfo Function*/
-// let user = {
-//     name: 'David',
-//     age: 19,
-//     email: 'hungrymanchannel@gmail.com'
-// }
 function getUserInfo(user) {
     console.log(
         `Name: ${user.name}\n Age; ${user.age}\n Email: ${user.email}`
@@ -55,3 +50,57 @@ getUserInfo({
     age: 19,
     email: 'hungrymanchannel@gmail.com'
 })
+
+/**getLargestNumber Function*/
+function getLargestNumber(arr) {
+    const max = arr.reduce((a, b) => Math.max(a, b), -Infinity)
+    console.log(`${max} is the highest number in the array.`)
+}
+let array = [100, 80, 150, 330]
+getLargestNumber(array)
+
+/**capitalizeWords Function*/
+function capitalizeWords(capsChar) {
+    const emptyArray = []
+    for (let i = 0; i < capsChar.length; i++) {
+        emptyArray.push(capsChar[i].toUpperCase())
+        // emptyArray.push(capsChar.charAt(0).toUpperCase() + capsChar.slice(1))
+    }
+    console.log(emptyArray)
+}
+let strArray = ['apple', 'boy', 'airplane', 'luggages', 'guns']
+capitalizeWords(strArray)
+
+/**convertToFarhenheit Function*/
+function convertToFarhenheit(temprature) {
+    let C = temprature
+    let F
+    F = (C * 9 / 5) + 32
+    console.log(`The tempreture is ${F}\º Farhenheit`)
+}
+let temprature = 50
+convertToFarhenheit(temprature)
+
+/**calculateAverageGrade Function*/
+function calculateAverageGrade(grades) {
+    let count = 0
+    for (const element of grades) {
+        count++
+    }
+    const sumOfAll = grades.reduce((accumulator, currentValue) => accumulator + currentValue)
+    let averageGrade = sumOfAll / count
+    console.log(`Student\'s average grade is ${averageGrade}`)
+}
+let studentGrades = [85, 92, 78, 95, 88]
+calculateAverageGrade(studentGrades)
+
+/**countVowels Function*/
+function countVowels(numOfVowels){
+    let count = 0
+    for(const element of numOfVowels){
+        count++
+    }
+    console.log(`The total number of vowels in the array is ${count}`)
+}
+let vowels = ['a', 'e', 'i', 'o', 'u']
+countVowels(vowels)
