@@ -124,16 +124,19 @@ countVowels(vowels)
 // countVowelsNConsonant(alphabethArray)
 
 /**getAverageScore Function */
-function getAverageScore(studentScores) {
-    let returnedValue = {}
-    for (let i = 0; i < studentGrades.length; i++) {
-       returnedValue = (Object.keys(studentGrades))
-    }
-    console.log(returnedValue)
+const studentScores = {
+    'David': [18, 20, 50, 70, 100],
+    'Rose': [32, 28, 49, 10, 48],
+    'Emma': [10, 38, 30, 29, 34],
+    'Sp': [39, 38, 32, 59, 80]
 }
-getAverageScore(studentScores = {
-    David: [18, 20, 50, 70, 100],
-    Rose: [32, 28, 49, 10, 48],
-    Emma: [10, 38, 30, 29, 34],
-    Sp: [39, 38, 32, 59, 80]
-})
+
+function getAverageScore(scores) {
+    const averages = {}
+    for (const student in scores) {
+        const total = scores[student].reduce((acc, curr) => acc + curr, 0);
+        averages[student] = total / scores[student].length;
+    }
+    console.log(averages)
+}
+getAverageScore()
