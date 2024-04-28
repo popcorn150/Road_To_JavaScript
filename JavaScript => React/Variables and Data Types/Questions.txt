@@ -32,3 +32,9 @@ Write a function called calculateAverageGrade that takes the grades array as inp
 
 |--> Write a function called countVowels that takes a string as 
 input and returns the number of vowels (a, e, i, o, u) in the string. <--|
+
+|--> Declare a variable studentScores and assign it an object where the keys 
+are student names and the values are arrays of test scores. 
+Write a function called getAverageScore that takes the studentScores 
+object as input and returns an object with each student's name as the 
+key and their average score as the value. <--|

@@ -95,12 +95,45 @@ let studentGrades = [85, 92, 78, 95, 88]
 calculateAverageGrade(studentGrades)
 
 /**countVowels Function*/
-function countVowels(numOfVowels){
+function countVowels(numOfVowels) {
     let count = 0
-    for(const element of numOfVowels){
+    for (const element of numOfVowels) {
         count++
     }
     console.log(`The total number of vowels in the array is ${count}`)
 }
 let vowels = ['a', 'e', 'i', 'o', 'u']
 countVowels(vowels)
+
+/**countVowelsNConsonant in an array Function*/
+// function countVowelsNConsonant(arr) {
+//     let vowelCount = 0
+//     let consonantCount = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] == ['a', 'e', 'i', 'o', 'u']) {
+//             vowelCount++
+//         } else if (arr[i] != ['a', 'e', 'i', 'o', 'u']) {
+//             consonantCount++
+//         } else {
+//             console.log('There are no such alphabeth in the array provided!')
+//         }
+//         console.log(vowelCount)
+//     }
+// }
+// let alphabethArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+// countVowelsNConsonant(alphabethArray)
+
+/**getAverageScore Function */
+function getAverageScore(studentScores) {
+    let returnedValue = {}
+    for (let i = 0; i < studentGrades.length; i++) {
+       returnedValue = (Object.keys(studentGrades))
+    }
+    console.log(returnedValue)
+}
+getAverageScore(studentScores = {
+    David: [18, 20, 50, 70, 100],
+    Rose: [32, 28, 49, 10, 48],
+    Emma: [10, 38, 30, 29, 34],
+    Sp: [39, 38, 32, 59, 80]
+})
