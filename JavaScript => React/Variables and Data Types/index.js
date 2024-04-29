@@ -124,12 +124,6 @@ countVowels(vowels)
 // countVowelsNConsonant(alphabethArray)
 
 /**getAverageScore Function */
-const studentScores = {
-    'David': [18, 20, 50, 70, 100],
-    'Rose': [32, 28, 49, 10, 48],
-    'Emma': [10, 38, 30, 29, 34],
-    'Sp': [39, 38, 32, 59, 80]
-}
 
 function getAverageScore(scores) {
     const averages = {}
@@ -139,4 +133,9 @@ function getAverageScore(scores) {
     }
     console.log(averages)
 }
-getAverageScore()
+getAverageScore(studentScores = {
+    'David': [18, 20, 50, 70, 100],
+    'Rose': [32, 28, 49, 10, 48],
+    'Emma': [10, 38, 30, 29, 34],
+    'Sp': [39, 38, 32, 59, 80]
+})
