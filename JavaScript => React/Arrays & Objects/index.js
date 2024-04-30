@@ -1,37 +1,24 @@
 /**Arrays */
 
 //reverseArray Function
-function reverseArray(randomStuff) {
-    let newArray = []
-    for (let i = 0; i < randomStuff.length; i++) {
-        newArray.push(randomStuff[i].split('').reverse().join(''))
-    }
-    console.log(newArray)
+function reverseArray(arr) {
+    let reversedArray = []
+    return arr.slice().reverse()
+    
 }
-let randomStuffs = ['Apple', 'Banana']
-reverseArray(randomStuffs)
+let array = ['Apple', 'Banana', 3, 7, 2]
+console.log(reverseArray(array))
 
 //findLargest Function
-function findLargest(...arrs) {
-    return arrs.reduce((acc, curr) => {
-        if (acc > curr) {
-            return acc
-        } else {
-            return curr
-        }
-    })
+function findLargest(arr) {
+    return Math.max(...arr)
 }
-console.log(findLargest(5, 7, 8, 2,))
+const numbers = [5, 7, 8, 2,]
+console.log(findLargest(numbers))
 
 //removeDuplicates Function
-function removeDuplicates(duplicateArray) {
-    let nonDuplicateArray = []
-    for (let i = 0; i < duplicateArray.length; i++) {
-        if (i == duplicateArray[i]) {
-            return i
-        }
-        return nonDuplicateArray.push(duplicateArray[i])
-    }
+function removeDuplicates(arr) {
+   return arr.filter((item, index) => arr.indexOf(item) === index)
 }
 let duplicateArray = ['Man', 'Boy', 'Girl', 'Woman', 'apple', 'apple', 'Man', 'Man', 'Boy']
 console.log(removeDuplicates(duplicateArray))
