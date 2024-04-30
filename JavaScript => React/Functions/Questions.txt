@@ -22,6 +22,6 @@ two numbers and a callback function as parameters. The callback function
 should define a mathematical operation (e.g., square, cube, square root) 
 and apply it to one of the numbers. <--|
 
-|--> Function Context:Write an object called calculator with methods add, subtract, 
+|--> Function Context: Write an object called calculator with methods add, subtract, 
 multiply, and divide, each taking two parameters and returning 
 the result of the respective operation. <--|
