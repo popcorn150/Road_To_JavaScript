@@ -1,0 +1,27 @@
+<<- Functions ->>
+|--> Function Parameters: Write a function called sum that takes an arbitrary number of arguments 
+and returns the sum of all the arguments. <--|
+
+|--> Function Scope: Write a function called outerFunction that declares a variable 
+x with a value of 5. Inside outerFunction, declare another function called innerFunction that multiplies x by 2. 
+Call innerFunction from within outerFunction and return the result. <--|
+
+|--> Function Expressions: Write a function expression called multiply that takes two parameters, 
+a and b, and returns the product of a and b. <--|
+
+|--> Recursion: Write a recursive function called factorial that takes a number n as input 
+and returns the factorial of n (i.e., the product of all positive integers up to n). <--|
+
+|--> Callback Functions: Write a function called calculate that takes two numbers 
+and a callback function as parameters. The callback function should perform a 
+mathematical operation (e.g., addition, subtraction, multiplication, division) 
+on the two numbers and return the result. <--|
+
+|--> Higher-Order Functions: Write a function called applyOperation that takes 
+two numbers and a callback function as parameters. The callback function 
+should define a mathematical operation (e.g., square, cube, square root) 
+and apply it to one of the numbers. <--|
+
+|--> Function Context:Write an object called calculator with methods add, subtract, 
+multiply, and divide, each taking two parameters and returning 
+the result of the respective operation. <--|
