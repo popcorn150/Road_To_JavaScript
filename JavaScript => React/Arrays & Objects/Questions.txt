@@ -1,0 +1,12 @@
+|--> Arrays:
+a. Write a function called reverseArray that takes an array as 
+input and returns a new array with the elements reversed, without 
+modifying the original array.
+
+b. Write a function called findLargest 
+that takes an array of numbers as input and returns the largest 
+number in the array.
+
+c. Write a function called removeDuplicates 
+that takes an array as input and returns a new array with 
+duplicate elements removed, preserving the original order. <--|
