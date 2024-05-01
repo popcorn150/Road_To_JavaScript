@@ -10,3 +10,16 @@ number in the array.
 c. Write a function called removeDuplicates 
 that takes an array as input and returns a new array with 
 duplicate elements removed, preserving the original order. <--|
+
+|--> Objects:
+a. Create an object called person with properties name, age, and gender. 
+Write a function called printPersonInfo that takes the person object as input and logs 
+their information in the format "Name: [name], Age: [age], Gender: [gender]".
+
+b. Write a function called countProperties that takes an object as input and returns 
+the number of properties (keys) in the object.
+
+c. Write a function called mergeObjects that takes two objects as input and returns 
+a new object with properties from both objects merged. 
+If there are conflicting properties, the value from the second 
+object should override the value from the first object. <--|

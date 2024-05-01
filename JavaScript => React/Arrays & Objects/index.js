@@ -22,3 +22,16 @@ function removeDuplicates(arr) {
 }
 let duplicateArray = ['Man', 'Boy', 'Girl', 'Woman', 'apple', 'apple', 'Man', 'Man', 'Boy']
 console.log(removeDuplicates(duplicateArray))
+
+/**Objects */
+
+//Person Object
+let person = {
+    name: 'Mike',
+    age: 28,
+    gender: 'Male'
+}
+function printPersonInfo(personInfo){
+    return `Name: ${personInfo.name}, Age: ${personInfo.age}, Gender: ${personInfo.gender}`
+}
+console.log(printPersonInfo(person))
