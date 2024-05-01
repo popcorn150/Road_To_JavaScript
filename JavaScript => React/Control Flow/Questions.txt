@@ -1,0 +1,18 @@
+|-->Control Flow <--|
+
+a. Write a function called checkEvenOdd that takes a number as input and 
+returns "Even" if the number is even and "Odd" if the number is odd.
+
+b. Create a function called checkVowel that takes a single character (string of length 1) as input 
+and returns "Vowel" if the character is a vowel (a, e, i, o, u) and "Consonant" if it's a consonant.
+
+c. Write a function called checkLeapYear that takes a year as input and returns "Leap year" if the year is a leap year 
+and "Not a leap year" if it's not. (A leap year is divisible by 4 but not by 100 unless it's also divisible by 400).
+
+d. Implement a function called checkPrime that takes a number as input and returns "Prime" if the number is a prime number 
+and "Not prime" if it's not. (A prime number is a number greater than 1 that has no positive divisors other than 1 and itself).
+
+e. Create a function called findMax that takes three numbers as input and returns the maximum of the three numbers.
+
+f. Write a function called checkPalindrome that takes a string as input and returns "Palindrome" 
+if the string is a palindrome (reads the same forwards and backwards) and "Not a palindrome" if it's not.
