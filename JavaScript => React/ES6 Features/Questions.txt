@@ -1,0 +1,13 @@
+|--> ES6 Features <--|
+
+Question 1: Write a function called mergeArrays that takes two arrays as input and returns a single 
+array containing all the elements from both arrays without any duplicates. 
+Use ES6 features like the spread operator and Sets to achieve this.
+Example:
+|| mergeArrays([1, 2, 3], [3, 4, 5]); => Output: [1, 2, 3, 4, 5]
+
+Question 2: Write a function called findUniqueElements that takes an array as input and returns 
+a new array containing only the unique elements of the input array. 
+Use ES6 features like the Set data structure and the spread operator.
+Example:
+|| findUniqueElements([1, 2, 3, 3, 4, 5, 5]); // Output: [1, 2, 3, 4, 5]
